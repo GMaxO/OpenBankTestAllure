@@ -1,0 +1,1 @@
+{"uuid":"30f8c935-6b6c-42f4-8f20-a66c885efa7f","name":"OpenBankTest","children":["a4452a84-3b38-4588-bc1f-b3da48c1399e"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1668197919939,"stop":1668197920929}],"afters":[],"start":1668197919861,"stop":1668197965768}

@@ -17,18 +17,18 @@ compileTestJava {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.1'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '4.6.0'
     implementation group: 'com.codeborne', name: 'selenide', version: '6.9.0'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.6.0'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.6.0'
-    testImplementation group: 'org.testng', name: 'testng', version: '7.6.1'
 
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.6.1'
     testImplementation group: 'io.qameta.allure', name: 'allure-selenide', version: '2.19.0'
     testImplementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.20.1'
-//    testImplementation group: 'io.qameta.allure', name: 'allure-comandLine', version: '2.18.1'
     testImplementation group: 'io.qameta.allure', name: 'allure-assertj', version: '2.20.1'
     testImplementation group: 'io.qameta.allure', name: 'allure-java-commons', version: '2.20.1'
     testImplementation group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.5'
